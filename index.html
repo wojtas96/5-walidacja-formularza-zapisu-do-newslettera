@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-walidacja-formularza-zapisu-do-newslettera</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<form action="" id="newsletter-form">
+
+    <ul id="errors"></ul>
+
+    <label for="name" >Imię i nazwisko</label><br />
+    <input type="text" name="name" id="name" placeholder="Jan Nowak"><br />
+
+    <label for="email" >Adres e-mail</label><br />
+    <input type="email" name="email" id="email" placeholder="jnowak@gmail.com"><br />
+
+    <input type="checkbox" name="agree-1" id="agree-1">
+    <label for="agree-1">Wyrażam zgodę - 1</label><br />
+
+    <input type="checkbox" name="agree-2" id="agree-2">
+    <label for="agree-2">Wyrażam zgodę - 2</label><br />
+
+    <input type="checkbox" name="all-agree" id="all-agree">
+    <label for="all-agree">Wyrażam wszystkie zgody</label><br />
+
+    <button type="submit" id="sign-up">Zapisz do Newsletter'a</button>
+</form>
+
+<script src="js/script.js"></script>
+</body>
+</html>
